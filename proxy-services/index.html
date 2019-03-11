@@ -14,14 +14,14 @@
 		<link rel="stylesheet" href="../assets/css/github-gist.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
 
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106471746-1"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135964621-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments)};
+			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 
-			gtag('config', 'UA-106471746-1');
+			gtag('config', 'UA-135964621-1');
 		</script>
 	</head>
 	<body>
@@ -228,7 +228,7 @@
   });
 </code></pre>
 </li>
-<li><p>セキュリティに関するヒント：デフォルトでは、proxy.configは任意の参照元を許可します。これを制限するに*は、allowedReferersプロパティのinを独自のアプリケーションURL に置き換え ます。</p>
+<li><p>セキュリティに関するヒント：デフォルトでは、<code>proxy.config</code> は任意の参照元を許可します。これを制限するに <code>allowedReferers</code> プロパティ <code>*</code> の部分を独自のアプリケーションURL に置き換えます。</p>
 </li>
 </ul>
 <p><strong>※</strong> 最新の<code>DotNet</code> の Proxy Version &quot;1.1.2&quot;では 561 行目で TLS 1.2 に対しての実装がされていますが、リクエスト先のサーバーが TLS 1.2 に対応していない場合は 500 のエラーになります。</p>
