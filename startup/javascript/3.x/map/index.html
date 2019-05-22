@@ -24,7 +24,7 @@
 
 	    	// マップの参照
 	    	var mapDeferred = arcgisUtils.createMap("<Web マップ ID>", "mapDiv");
-	    	//var mapDeferred = arcgisUtils.createMap("d3ffea931f4a455f9c3b6c2102e66eda", "mapDiv");
+	    	//var mapDeferred = arcgisUtils.createMap("id=d3ffea931f4a455f9c3b6c2102e66eda#overview", "mapDiv");
 	    	mapDeferred.then(function(response) { // マップの参照結果のコールバック
 	    		map = response.map; // マップ オブジェクトの取得
 	    	});
